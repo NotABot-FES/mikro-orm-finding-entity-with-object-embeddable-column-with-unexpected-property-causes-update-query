@@ -3,10 +3,12 @@
     "module": "NodeNext",
     "target": "ESNext",
     "strict": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
     "esModuleInterop": true,
-    "types": ["vitest/globals", "node"]
+    "types": [
+      "node"
+    ],
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true
   },
   "include": [
     "./src/**/*.ts"
